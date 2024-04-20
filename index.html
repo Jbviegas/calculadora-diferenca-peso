@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora MMA</title>
+</head>
+
+<body>
+    <section class="unica-secao">
+        <div class="informacao">
+            <span class="texto-principal">
+                Os Lutadores só poderam lutar
+                caso haja uma diferença de peso
+                de no máximo 5kg entre eles.
+            </span>
+        </div>
+        <div class="container-informacoes">
+            <div class="topo">
+                <img src="./img/ufc-logo-67A3CAEF3C-seeklogo.com.png">
+                <h1></h1>
+                <h2>Digite abaixo o peso dos lutadores</h2>
+            </div>
+            <label>Digita abaixo o peso do 1° lutador</label>
+            <input id="peso-1" type="number" value="" placeholder="0kg">
+            <label>Digita abaixo o peso do 2° lutador</label>
+            <input id="peso-2" type="number" value="" placeholder="0kg">
+
+            <div class="botoes">
+                <button id="calculo" onclick="calcularPeso()" disabled>Calcular</button>
+                <button id="limpar" onclick="novoCalculo()">limpar</button>
+            </div>
+
+            <div class="diferenca-peso">
+                <p class="subtitulo"></p>
+                <h2>Diferença de peso:</h2>
+                <span class="sobra">
+                    <h3></h3>
+                    <p>kg</p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

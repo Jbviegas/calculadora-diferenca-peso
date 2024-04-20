@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.unica-secao {
+    height: 100vh;
+    display: flex;
+}
+
+.informacao {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0 5%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.texto-principal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 80px;
+}
+
+.container-informacoes {
+    width: 600px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 20px;
+    background-color: black;
+    border: 5px solid red;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.subtitulo {
+    font-size: 35px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.botoes {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#limpar {
+    background-color: red;
+    color: white;
+    cursor: grab;
+}
+
+#calculo {
+    cursor: grab;
+}
+
+button {
+    padding: 10px;
+    width: 130px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+.diferenca-peso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.sobra {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
